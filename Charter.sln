@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharterUi", "CharterUi\CharterUi.csproj", "{136837F8-849E-4F35-8887-1274BB614744}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharterLIbrary", "DataLibrary\CharterLIbrary.csproj", "{8D01F139-2DFB-4003-B718-FC1A9FCF23E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{136837F8-849E-4F35-8887-1274BB614744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{136837F8-849E-4F35-8887-1274BB614744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{136837F8-849E-4F35-8887-1274BB614744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{136837F8-849E-4F35-8887-1274BB614744}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D01F139-2DFB-4003-B718-FC1A9FCF23E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D01F139-2DFB-4003-B718-FC1A9FCF23E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D01F139-2DFB-4003-B718-FC1A9FCF23E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D01F139-2DFB-4003-B718-FC1A9FCF23E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F20B83AE-D797-443C-9C10-FED04609F363}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+C:\Charter\DataLibrary\bin\Debug\DataLibrary.dll
+C:\Charter\DataLibrary\bin\Debug\DataLibrary.pdb
+C:\Charter\DataLibrary\obj\Debug\CharterLIbrary.csproj.AssemblyReference.cache
+C:\Charter\DataLibrary\obj\Debug\CharterLIbrary.csproj.CoreCompileInputs.cache
+C:\Charter\DataLibrary\obj\Debug\DataLibrary.dll
+C:\Charter\DataLibrary\obj\Debug\DataLibrary.pdb
