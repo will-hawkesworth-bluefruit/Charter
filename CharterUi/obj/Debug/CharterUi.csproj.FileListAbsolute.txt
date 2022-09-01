@@ -8,7 +8,6 @@ C:\Charter\CharterUi\obj\Debug\CharterUi.csproj.GenerateResource.cache
 C:\Charter\CharterUi\obj\Debug\CharterUi.csproj.CoreCompileInputs.cache
 C:\Charter\CharterUi\obj\Debug\CharterUi.exe
 C:\Charter\CharterUi\obj\Debug\CharterUi.pdb
-C:\Charter\CharterUi\obj\Debug\CharterUi.ProjectPage.resources
 C:\Charter\CharterUi\obj\Debug\CharterUi.HomePage.resources
 C:\Charter\CharterUi\obj\Debug\CharterUi.SectionPage.resources
 C:\Charter\CharterUi\obj\Debug\CharterUi.NewCharterPage.resources
@@ -17,3 +16,4 @@ C:\Charter\CharterUi\obj\Debug\CharterUi.EditCharterPage.resources
 C:\Charter\CharterUi\bin\Debug\DataLibrary.dll
 C:\Charter\CharterUi\bin\Debug\DataLibrary.pdb
 C:\Charter\CharterUi\obj\Debug\CharterUi.csproj.CopyComplete
+C:\Charter\CharterUi\obj\Debug\CharterUi.SectionInfoPage.resources

@@ -35,10 +35,10 @@ namespace CharterUi
             newCharterPage.ShowDialog();
         }
 
-        private void SectionPage_Load(object sender, EventArgs e)
+        private void helpButton_Click(object sender, EventArgs e)
         {
-            navSectionPageProjectComboBox.Text = HomePage.projectSelected;
+            var newHelpPage = new SectionInfoPage();
+            newHelpPage.Show();
         }
-
     }
 }

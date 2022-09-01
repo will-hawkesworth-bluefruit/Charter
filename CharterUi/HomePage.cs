@@ -12,24 +12,15 @@ namespace CharterUi
             InitializeComponent();
         }
 
-        private void navHomePageProjectComboBox_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if(!(navHomePageProjectComboBox.Text == "N/A"))
-            {
-                var projectPage = new ProjectPage();
-                projectPage.Location = this.Location;
-                projectPage.StartPosition = FormStartPosition.Manual;
-                projectPage.FormClosing += delegate { this.Show(); };
-                projectSelected = navHomePageProjectComboBox.Text;
-                navHomePageProjectComboBox.Text = "N/A";
-                projectPage.Show();
-                this.Hide();
-            }
-        }
-
         private void HomePage_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void loadProjectButton_Click(object sender, EventArgs e)
+        {
+            SectionPage sectionPage = new SectionPage();
+            sectionPage.Show();
         }
     }
 }

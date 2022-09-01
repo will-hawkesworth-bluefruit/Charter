@@ -29,12 +29,10 @@
         private void InitializeComponent()
         {
             System.Windows.Forms.ListBox charterListBox;
-            this.navSectionPageSprintLabel = new System.Windows.Forms.Label();
-            this.navSectionPageSprintComboBox = new System.Windows.Forms.ComboBox();
-            this.navSectionPageSectionComboBox = new System.Windows.Forms.ComboBox();
-            this.navSectionPageSectionLabel = new System.Windows.Forms.Label();
-            this.navSectionPageProjectLabel = new System.Windows.Forms.Label();
-            this.navSectionPageProjectComboBox = new System.Windows.Forms.ComboBox();
+            this.sprintSelectLabel = new System.Windows.Forms.Label();
+            this.sprintSelectComboBox = new System.Windows.Forms.ComboBox();
+            this.sectionSelectComboBox = new System.Windows.Forms.ComboBox();
+            this.sectionSelectLabel = new System.Windows.Forms.Label();
             this.charterPurposeLabel = new System.Windows.Forms.Label();
             this.charterTestedByHeaderLabel = new System.Windows.Forms.Label();
             this.charterTestedByLabel = new System.Windows.Forms.Label();
@@ -45,6 +43,7 @@
             this.sectionViewCharterButton = new System.Windows.Forms.Button();
             this.sectionEditCharterButton = new System.Windows.Forms.Button();
             this.sectionNewCharterButton = new System.Windows.Forms.Button();
+            this.helpButton = new System.Windows.Forms.Button();
             charterListBox = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
@@ -68,33 +67,33 @@
             charterListBox.Size = new System.Drawing.Size(231, 479);
             charterListBox.TabIndex = 12;
             // 
-            // navSectionPageSprintLabel
+            // sprintSelectLabel
             // 
-            this.navSectionPageSprintLabel.AutoSize = true;
-            this.navSectionPageSprintLabel.Location = new System.Drawing.Point(612, 15);
-            this.navSectionPageSprintLabel.Name = "navSectionPageSprintLabel";
-            this.navSectionPageSprintLabel.Size = new System.Drawing.Size(74, 25);
-            this.navSectionPageSprintLabel.TabIndex = 11;
-            this.navSectionPageSprintLabel.Text = "Sprint:";
+            this.sprintSelectLabel.AutoSize = true;
+            this.sprintSelectLabel.Location = new System.Drawing.Point(410, 9);
+            this.sprintSelectLabel.Name = "sprintSelectLabel";
+            this.sprintSelectLabel.Size = new System.Drawing.Size(74, 25);
+            this.sprintSelectLabel.TabIndex = 11;
+            this.sprintSelectLabel.Text = "Sprint:";
             // 
-            // navSectionPageSprintComboBox
+            // sprintSelectComboBox
             // 
-            this.navSectionPageSprintComboBox.FormattingEnabled = true;
-            this.navSectionPageSprintComboBox.Items.AddRange(new object[] {
+            this.sprintSelectComboBox.FormattingEnabled = true;
+            this.sprintSelectComboBox.Items.AddRange(new object[] {
             "1",
             "2",
             "3",
             "N/A"});
-            this.navSectionPageSprintComboBox.Location = new System.Drawing.Point(692, 12);
-            this.navSectionPageSprintComboBox.Name = "navSectionPageSprintComboBox";
-            this.navSectionPageSprintComboBox.Size = new System.Drawing.Size(54, 33);
-            this.navSectionPageSprintComboBox.TabIndex = 10;
-            this.navSectionPageSprintComboBox.Text = "N/A";
+            this.sprintSelectComboBox.Location = new System.Drawing.Point(490, 6);
+            this.sprintSelectComboBox.Name = "sprintSelectComboBox";
+            this.sprintSelectComboBox.Size = new System.Drawing.Size(68, 33);
+            this.sprintSelectComboBox.TabIndex = 10;
+            this.sprintSelectComboBox.Text = "N/A";
             // 
-            // navSectionPageSectionComboBox
+            // sectionSelectComboBox
             // 
-            this.navSectionPageSectionComboBox.FormattingEnabled = true;
-            this.navSectionPageSectionComboBox.Items.AddRange(new object[] {
+            this.sectionSelectComboBox.FormattingEnabled = true;
+            this.sectionSelectComboBox.Items.AddRange(new object[] {
             "Home",
             "Roadmap",
             "Features",
@@ -104,41 +103,20 @@
             "Administration",
             "Diagnostics",
             "N/A"});
-            this.navSectionPageSectionComboBox.Location = new System.Drawing.Point(401, 12);
-            this.navSectionPageSectionComboBox.Name = "navSectionPageSectionComboBox";
-            this.navSectionPageSectionComboBox.Size = new System.Drawing.Size(205, 33);
-            this.navSectionPageSectionComboBox.TabIndex = 9;
-            this.navSectionPageSectionComboBox.Text = "N/A";
+            this.sectionSelectComboBox.Location = new System.Drawing.Point(103, 6);
+            this.sectionSelectComboBox.Name = "sectionSelectComboBox";
+            this.sectionSelectComboBox.Size = new System.Drawing.Size(301, 33);
+            this.sectionSelectComboBox.TabIndex = 9;
+            this.sectionSelectComboBox.Text = "N/A";
             // 
-            // navSectionPageSectionLabel
+            // sectionSelectLabel
             // 
-            this.navSectionPageSectionLabel.AutoSize = true;
-            this.navSectionPageSectionLabel.Location = new System.Drawing.Point(305, 15);
-            this.navSectionPageSectionLabel.Name = "navSectionPageSectionLabel";
-            this.navSectionPageSectionLabel.Size = new System.Drawing.Size(90, 25);
-            this.navSectionPageSectionLabel.TabIndex = 8;
-            this.navSectionPageSectionLabel.Text = "Section:";
-            // 
-            // navSectionPageProjectLabel
-            // 
-            this.navSectionPageProjectLabel.AutoSize = true;
-            this.navSectionPageProjectLabel.Location = new System.Drawing.Point(3, 15);
-            this.navSectionPageProjectLabel.Name = "navSectionPageProjectLabel";
-            this.navSectionPageProjectLabel.Size = new System.Drawing.Size(85, 25);
-            this.navSectionPageProjectLabel.TabIndex = 7;
-            this.navSectionPageProjectLabel.Text = "Project:";
-            // 
-            // navSectionPageProjectComboBox
-            // 
-            this.navSectionPageProjectComboBox.FormattingEnabled = true;
-            this.navSectionPageProjectComboBox.Items.AddRange(new object[] {
-            "Mission Control",
-            "N/A"});
-            this.navSectionPageProjectComboBox.Location = new System.Drawing.Point(94, 12);
-            this.navSectionPageProjectComboBox.Name = "navSectionPageProjectComboBox";
-            this.navSectionPageProjectComboBox.Size = new System.Drawing.Size(205, 33);
-            this.navSectionPageProjectComboBox.TabIndex = 6;
-            this.navSectionPageProjectComboBox.Text = "N/A";
+            this.sectionSelectLabel.AutoSize = true;
+            this.sectionSelectLabel.Location = new System.Drawing.Point(7, 9);
+            this.sectionSelectLabel.Name = "sectionSelectLabel";
+            this.sectionSelectLabel.Size = new System.Drawing.Size(90, 25);
+            this.sectionSelectLabel.TabIndex = 8;
+            this.sectionSelectLabel.Text = "Section:";
             // 
             // charterPurposeLabel
             // 
@@ -233,12 +211,23 @@
             this.sectionNewCharterButton.UseVisualStyleBackColor = true;
             this.sectionNewCharterButton.Click += new System.EventHandler(this.sectionNewCharterButton_Click);
             // 
+            // helpButton
+            // 
+            this.helpButton.Location = new System.Drawing.Point(734, 6);
+            this.helpButton.Name = "helpButton";
+            this.helpButton.Size = new System.Drawing.Size(34, 37);
+            this.helpButton.TabIndex = 23;
+            this.helpButton.Text = "?";
+            this.helpButton.UseVisualStyleBackColor = true;
+            this.helpButton.Click += new System.EventHandler(this.helpButton_Click);
+            // 
             // SectionPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(780, 557);
+            this.Controls.Add(this.helpButton);
             this.Controls.Add(this.sectionNewCharterButton);
             this.Controls.Add(this.sectionEditCharterButton);
             this.Controls.Add(this.sectionViewCharterButton);
@@ -250,12 +239,10 @@
             this.Controls.Add(this.charterTestedByHeaderLabel);
             this.Controls.Add(this.charterPurposeLabel);
             this.Controls.Add(charterListBox);
-            this.Controls.Add(this.navSectionPageSprintLabel);
-            this.Controls.Add(this.navSectionPageSprintComboBox);
-            this.Controls.Add(this.navSectionPageSectionComboBox);
-            this.Controls.Add(this.navSectionPageSectionLabel);
-            this.Controls.Add(this.navSectionPageProjectLabel);
-            this.Controls.Add(this.navSectionPageProjectComboBox);
+            this.Controls.Add(this.sprintSelectLabel);
+            this.Controls.Add(this.sprintSelectComboBox);
+            this.Controls.Add(this.sectionSelectComboBox);
+            this.Controls.Add(this.sectionSelectLabel);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Margin = new System.Windows.Forms.Padding(6);
@@ -263,7 +250,6 @@
             this.Name = "SectionPage";
             this.ShowIcon = false;
             this.Text = "Charter";
-            this.Load += new System.EventHandler(this.SectionPage_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -271,12 +257,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Label navSectionPageSprintLabel;
-        private System.Windows.Forms.ComboBox navSectionPageSprintComboBox;
-        private System.Windows.Forms.ComboBox navSectionPageSectionComboBox;
-        private System.Windows.Forms.Label navSectionPageSectionLabel;
-        private System.Windows.Forms.Label navSectionPageProjectLabel;
-        private System.Windows.Forms.ComboBox navSectionPageProjectComboBox;
+        private System.Windows.Forms.Label sprintSelectLabel;
+        private System.Windows.Forms.ComboBox sprintSelectComboBox;
+        private System.Windows.Forms.ComboBox sectionSelectComboBox;
+        private System.Windows.Forms.Label sectionSelectLabel;
         private System.Windows.Forms.Label charterPurposeLabel;
         private System.Windows.Forms.Label charterTestedByHeaderLabel;
         private System.Windows.Forms.Label charterTestedByLabel;
@@ -287,5 +271,6 @@
         private System.Windows.Forms.Button sectionViewCharterButton;
         private System.Windows.Forms.Button sectionEditCharterButton;
         private System.Windows.Forms.Button sectionNewCharterButton;
+        private System.Windows.Forms.Button helpButton;
     }
 }
